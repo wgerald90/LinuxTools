@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import sys
 import os.path
 
 DOCUMENTATION = """ cat
@@ -19,4 +18,3 @@ for a in args:
                 print(line)
     else:
         raise FileNotFoundError("Invalid argument {0}".format(a))
-        sys.exit(1)
